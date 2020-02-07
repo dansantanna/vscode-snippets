@@ -1,0 +1,46 @@
+{
+	"Create Component Styled": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact ",
+		"prefix": "comp-styled",
+		"body": [
+			"import styled from 'styled-component'\n",
+			"const ${1:$TM_FILENAME_BASE} = styled.${2}`",
+			"	${3}",
+			"`\n",
+			"export default ${1:$TM_FILENAME_BASE}"
+		],
+		"description": "Cria um styled component com a importação"
+	},
+	"Create Component React": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact ",
+		"prefix": "comp-react",
+		"body": [
+			"import React from 'react'\n",
+			"const ${1:$TM_FILENAME_BASE} = () => {",
+			" return(${2})",
+			"};\n",
+			"export default ${1:$TM_FILENAME_BASE}"
+		],
+		"description": "Cria um component react com a importação"
+	},
+	"Create Just Component React": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact ",
+		"prefix": "c-react",
+		"body": [
+			"const ${1:$TM_FILENAME_BASE} = () => {",
+			"	return(${2})",
+			"};"
+		],
+		"description": "Cria um component react sem a importação"
+	},
+	"Create Just Component Styled": {
+		"scope": "javascript,typescript,javascriptreact,typescriptreact ",
+		"prefix": "c-styled",
+		"body": [
+			"const ${1:$TM_FILENAME_BASE} = styled.${2}`",
+			"	${3}",
+			"`",
+		],
+		"description": "Cria um component styled sem a importação"
+	},
+}
