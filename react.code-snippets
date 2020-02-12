@@ -3,7 +3,7 @@
 		"scope": "javascript,typescript,javascriptreact,typescriptreact ",
 		"prefix": "comp-styled",
 		"body": [
-			"import styled from 'styled-component'\n",
+			"import styled from 'styled-components'\n",
 			"const ${1:$TM_FILENAME_BASE} = styled.${2}`",
 			"	${3}",
 			"`\n",
